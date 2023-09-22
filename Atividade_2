@@ -1,0 +1,23 @@
+programa {
+  funcao inicio() {
+    real media, bi1, bi2, bi3, bi4
+
+    escreva("Diga a nota do primeiro bimestre: ")
+    leia(bi1)
+    escreva("Diga a nota do segundo bimestre: ")
+    leia(bi2)
+    escreva("Diga a nota do terceiro bimestre: ")
+    leia(bi3)
+    escreva("Diga a nota do quarto bimestre: ")
+    leia(bi4)
+    
+    media = (bi1 + bi2 + bi3 + bi4) / 4
+
+    se(media >= 60){
+      escreva("A nota final foi ", media, ", você passou, parabéns!")
+    }
+    senao{
+      escreva("A nota final foi ", media, "você não passou :c.")
+    }
+  }
+}
