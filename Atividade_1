@@ -1,0 +1,13 @@
+programa {
+  funcao inicio() {
+    real PF, CdS, PdA, CdF, OdF, PM
+    PF = 26.90
+    CdS = 34.10
+    PdA = 29.90
+    CdF = 26.90
+    OdF = 50.00
+    PM = 26.90
+    
+    escreva("A compra total dos 6 livros é ", PdA + PF + PM + OdF + CdF + CdS, "R$.")
+  }
+}
