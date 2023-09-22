@@ -1,0 +1,21 @@
+programa {
+  inclua biblioteca Util --> u
+  funcao inicio() {
+    cadeia mae = "Tess"
+    cadeia filha = "Anna"
+    cadeia biscoito
+
+    escreva("mae = ", mae, "\n")
+    escreva("filha = ", filha, "\n\n")
+
+    u.aguarde(2000)
+
+    biscoito = mae
+    mae = filha
+    filha = biscoito
+
+    escreva("mae = ", mae, "\n")
+    escreva("filha = ", filha, "\n")
+
+  }
+}
