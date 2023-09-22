@@ -1,0 +1,17 @@
+programa {
+  funcao inicio() {
+    real economia, ps5, dolar
+
+    dolar = 4.91
+    ps5 = 1300 * dolar
+    escreva("Quanto reais você tem guardado?\n")
+    leia(economia)
+
+    se(economia / dolar > ps5){
+      escreva("Você já pode comprar o seu PS5!" )
+    }
+    senao{
+      escreva("Como o Ps5 custa 1.300 dolares e a cotação atual está em 4,91R$ falta ", ps5 - (economia / dolar), " para você comprar seu Ps5. /n O que equivale a ", (ps5 * 4.91) - economia, " reais.")
+    }
+  }
+}
