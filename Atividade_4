@@ -1,0 +1,10 @@
+programa {
+  funcao inicio() {
+    real numero
+
+    escreva("Diga uma distância em centímetros para transformar me metros/quilometros: ")
+    leia(numero)
+
+    escreva(numero, " centímetros da ", numero / 100, " metros.")
+  }
+}
