@@ -1,0 +1,12 @@
+programa {
+  funcao inicio() {
+    real comprimento, largura
+
+    escreva("Diga a largura do maracanã em metros: ")
+    leia(largura)
+    escreva("Diga o comprimento do maracanã em metros: ")
+    leia(comprimento)
+
+    escreva("Área do gramado: ", largura * comprimento, "\nDobro da área: ", (largura * comprimento) * 2, "\nO dobro em centímetros: ", (largura * comprimento) * 200)
+  }
+}
