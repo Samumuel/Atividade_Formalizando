@@ -1,0 +1,19 @@
+programa {
+  funcao inicio() {
+    real dolar = 4.86
+    real economias
+    inteiro livros
+
+    //Questão A
+    escreva("Diga quanto você possui guardado: ")
+    leia(economias)
+    escreva("Se você tem ", economias, " reais guardado falta ", 1300 - (economias/dolar), " dolares para você comprar um PS5. \n")
+
+    //Questão B
+    escreva("Se você tem ", economias, " reais guardado falta ", (1300*dolar) - economias, " reais para você comprar um PS5. \n")
+    
+    livros = ((1300*dolar) - economias) / 50 
+    //Questão C
+    escreva("Com este valor você consegueria comprar ", livros, " livros do Harry Potter a Ordem da Fenix.")
+  }
+}
